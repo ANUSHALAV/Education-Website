@@ -1,0 +1,26 @@
+/* media query here.... */
+
+@media screen and (max-width:1200px) {
+    .navbar .top-btn {
+        padding: 1% 1%;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .main-btn {
+        font-size: 1rem;
+        padding: 2% 3%;
+    }
+
+    .navbar .top-btn {
+        padding: 2% 5%;
+    }
+
+    .footer-section .circle a {
+        left: 90%;
+    }
+
+
+
+}
