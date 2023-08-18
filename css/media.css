@@ -24,3 +24,12 @@
 
 
 }
+
+
+
+
+@media screen and (max-width:500px){
+    .footer-section .circle a {
+        left: 80%;
+    }
+}
