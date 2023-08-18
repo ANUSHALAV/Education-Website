@@ -28,7 +28,7 @@
 
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:400px){
     .footer-section .circle a {
         left: 80%;
     }
