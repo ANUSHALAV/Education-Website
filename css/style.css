@@ -52,9 +52,12 @@ body {
 
 /* banner-section */
 .banner-section {
-    background-color: #f5f1eb;
-    height:100vh;
-    overflow:hidden;
+    background-image:url(../image/asset\ 25.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height:fit-content
 }
 
 .main-btn {
@@ -64,6 +67,7 @@ body {
     color: #fff;
     font-size: 1.2rem;
     padding: 2% 6%;
+    text-align: center;
 }
 
 /*banner-section-end  */
@@ -81,8 +85,11 @@ body {
 .course-section {
     background-color: #f5f1eb;
 }
+.course-section .card{
+    height:fit-content;
+}
 .course-section .card:hover .image{
-    transform: scale(1.1,1.1);
+    transform: scale(1,1.1);
 }
 .course-section .card .card-title:hover{
     color:#1ab79d;

@@ -7,6 +7,17 @@
 }
 
 @media screen and (max-width:992px) {
+    .navbar .container .navbar-nav li {
+        border:2px solid #000;
+        margin-top:10px;
+        text-align: center;
+        margin-block:unset;
+        
+    } 
+    .navbar .container .nav-links .top-btn {
+        margin-inline:60px;
+
+    }
 
     .main-btn {
         font-size: 1rem;
