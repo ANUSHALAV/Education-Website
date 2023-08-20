@@ -83,13 +83,17 @@ body {
 
 /* course-section */
 .course-section {
-    background-color: #f5f1eb;
+    background-image: url(../image/asset\ 27.svg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: fit-content;
 }
 .course-section .card{
-    height:fit-content;
+    max-height:fit-content;
 }
 .course-section .card:hover .image{
-    transform: scale(1,1.1);
+    transform: scale(1.1,1.1);
 }
 .course-section .card .card-title:hover{
     color:#1ab79d;

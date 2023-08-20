@@ -8,12 +8,15 @@
 
 @media screen and (max-width:992px) {
     .navbar .container .navbar-nav li {
-        border:2px solid #000;
+        background-color:#1ab79d;
         margin-top:10px;
         text-align: center;
         margin-block:unset;
         
     } 
+    .container .navbar-nav li a{
+        color:#fff;
+    }
     .navbar .container .nav-links .top-btn {
         margin-inline:60px;
 
